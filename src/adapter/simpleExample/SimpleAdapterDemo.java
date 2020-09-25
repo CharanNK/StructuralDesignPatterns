@@ -6,9 +6,9 @@ public class SimpleAdapterDemo {
 		USPlugConnector usPlug = null;
 		
 		UKElectricalSocket ukSocket = new UKElectricalSocket();
-		UKPlugConnector adapter = new UStoUKAdapter(usPlug);
+//		UKPlugConnector adapter = new UStoUKAdapter(usPlug);
 		
-		ukSocket.plugIn(adapter);
+//		ukSocket.plugIn(adapter);
 	}
 
 }
